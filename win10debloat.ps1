@@ -180,6 +180,17 @@ $tweaks = @(
 	### Unpinning ###
 	"UnpinStartMenuTiles",
 	#"UnpinTaskbarIcons",
+	
+	### Added Software ###
+	"InstallChrome",
+	"InstallFirefox",
+	"InstallBrave",
+	"InstallPIA",
+	"InstallLastPassChrome",
+	"InstallDbeaver",
+	"InstallVScode",
+	"InstallSteam"
+	
 
 	### Auxiliary Functions ###
 	"WaitForKey"
@@ -224,6 +235,46 @@ Function InstallNotepadplusplus {
 Function InstallMediaPlayerClassic {
 	Write-Output "Installing Media Player Classic (VLC Alternative)"
 	choco install mpc-hc -y
+}
+
+Function InstallChrome {
+	Write-Output "Installing Google Chrome"
+	choco install googlechrome -y
+}
+
+Function InstallFirefox {
+	Write-Output "Installing Firefox"
+	choco install firefox -y
+}
+
+Function InstallBrave {
+	Write-Output "Installing Brave"
+	choco install brave -y
+}
+
+Function InstallPIA {
+	Write-Output "Installing PIA"
+	choco install pia -y
+}
+
+Function InstallLastPassChrome {
+	Write-Output "Installing LastPassChrome"
+	choco install lastpass-chrome -y
+}
+
+Function InstallDbeaver {
+	Write-Output "Installing Dbeaver"
+	choco install dbeaver -y
+}
+
+Function InstallVScode {
+	Write-Output "Installing VScode"
+	choco install vscode -y
+}
+
+Function InstallSteam {
+	Write-Output "Installing Steam"
+	choco install steam -y
 }
 
 ##########
