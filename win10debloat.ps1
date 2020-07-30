@@ -37,13 +37,13 @@ $tweaks = @(
 	"InstallMediaPlayerClassic",
 	### Added Software ###
 	"InstallChrome",
-	"InstallFirefox",
-	"InstallBrave",
-	"InstallPIA",
-	"InstallLastPassChrome",
-	"InstallDbeaver",
-	"InstallVScode",
-	"InstallSteam",
+	#"InstallFirefox",
+	#"InstallBrave",
+	#"InstallPIA",
+	#"InstallLastPassChrome",
+	#"InstallDbeaver",
+	#"InstallVScode",
+	#"InstallSteam",
 
 	### Windows Apps
 	"DebloatAll",
@@ -68,7 +68,7 @@ $tweaks = @(
 	"DisableWAPPush",               # "EnableWAPPush",
 
 	### Security Tweaks ###
-	"SetUACLow",                  # "SetUACHigh",
+	"SetUACHigh",                   # "SetUACLow",
 	# "EnableSharingMappedDrives",  # "DisableSharingMappedDrives",
 	# "DisableAdminShares",           # "EnableAdminShares",
 	"DisableSMB1",                # "EnableSMB1",
@@ -77,9 +77,9 @@ $tweaks = @(
 	"SetCurrentNetworkPrivate",     # "SetCurrentNetworkPublic",
 	"SetUnknownNetworksPrivate",  # "SetUnknownNetworksPublic",
 	"DisableNetDevicesAutoInst",  # "EnableNetDevicesAutoInst",
-	"DisableCtrldFolderAccess",	# "EnableCtrldFolderAccess",
+	"EnableCtrldFolderAccess",	# "DisableCtrldFolderAccess",
 	# "DisableFirewall",            # "EnableFirewall",
-	"DisableDefender",            # "EnableDefender",
+	"EnableDefender",            # "DisableDefender",
 	"DisableDefenderCloud",       # "EnableDefenderCloud",
 	"EnableF8BootMenu",             # "DisableF8BootMenu",
 	#"SetDEPOptOut",                 # "SetDEPOptIn",
