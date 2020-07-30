@@ -44,6 +44,7 @@ $tweaks = @(
 	"InstallDbeaver",
 	"InstallVScode",
 	"InstallSteam",
+	"InstallDiscord",
 
 	### Windows Apps
 	"DebloatAll",
@@ -274,6 +275,11 @@ Function InstallVScode {
 Function InstallSteam {
 	Write-Output "Installing Steam"
 	choco install steam -y
+}
+
+Function InstallDiscord {
+	Write-Output "Installing Discord"
+	choco install discord -y
 }
 
 ##########
