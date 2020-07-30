@@ -33,8 +33,17 @@ $tweaks = @(
 	"InstallTitusProgs", #REQUIRED FOR OTHER PROGRAM INSTALLS!
 	"InstallAdobe",
 	"Install7Zip",
-	"InstallNotepadplusplus",
+	# "InstallNotepadplusplus",
 	"InstallMediaPlayerClassic",
+	### Added Software ###
+	"InstallChrome",
+	"InstallFirefox",
+	"InstallBrave",
+	"InstallPIA",
+	"InstallLastPassChrome",
+	"InstallDbeaver",
+	"InstallVScode",
+	"InstallSteam",
 
 	### Windows Apps
 	"DebloatAll",
@@ -180,16 +189,6 @@ $tweaks = @(
 	### Unpinning ###
 	"UnpinStartMenuTiles",
 	#"UnpinTaskbarIcons",
-	
-	### Added Software ###
-	"InstallChrome",
-	"InstallFirefox",
-	"InstallBrave",
-	"InstallPIA",
-	"InstallLastPassChrome",
-	"InstallDbeaver",
-	"InstallVScode",
-	"InstallSteam"
 	
 
 	### Auxiliary Functions ###
